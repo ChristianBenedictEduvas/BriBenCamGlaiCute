@@ -1,6 +1,7 @@
 # varibales are milliseconds, seconds, minutes, and hours
 # needs start, stop, split, and reset
 # can add other features 
+# we'll utilize Tkinter for import to run GUI
 
 milliseconds = 0
 seconds = 0
