@@ -1,16 +1,14 @@
 # varibales are milliseconds, seconds, minutes, and hours
 # needs start, stop, split, and reset
 
-def update():
-    if milliseconds == 60:
-        seconds += 1
-    elif seconds == 60:
-        minutes += 1
-    elif minutes == 60:
-        hours += 1
+milliseconds = 0
+seconds = 0
+minutes = 0
+hours = 0
 
-def start():
-    global running
-    if not running
-    update()
-    running = True
+if milliseconds == 60:
+    seconds += 1
+elif seconds == 60:
+    minutes += 1
+elif minutes == 60:
+    hours += 1
