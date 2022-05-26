@@ -7,6 +7,12 @@ seconds = 0
 minutes = 0
 hours = 0
 
+def start():
+    global running
+    if not running:
+        update()
+        running = True
+
 if milliseconds == 60:
     seconds += 1
     milliseconds = 0
