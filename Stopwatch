@@ -1,3 +1,6 @@
+# varibales are milliseconds, seconds, minutes, and hours
+# needs start, stop, split, and reset
+
 def update():
     if milliseconds == 60:
         seconds += 1
