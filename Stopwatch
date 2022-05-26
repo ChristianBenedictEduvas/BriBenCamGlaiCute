@@ -1,5 +1,6 @@
 # varibales are milliseconds, seconds, minutes, and hours
 # needs start, stop, split, and reset
+# can add other features 
 
 milliseconds = 0
 seconds = 0
