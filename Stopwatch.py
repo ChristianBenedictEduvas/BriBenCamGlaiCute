@@ -26,6 +26,7 @@ def reset():
     global laps
     hours, minutes, seconds, milliseconds = 0, 0, 0, 0
     laps = 0
+    
     stopwatch_label.config(text='00:00:00.00')
     split1.configure(text='00:00:00.00')
     split2.configure(text='00:00:00.00')
