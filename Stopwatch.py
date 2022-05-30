@@ -16,6 +16,7 @@ def pause():
         stopwatch_label.after_cancel(update_time)
         running = False
         
+        
 def reset():
     global running
     if running:
