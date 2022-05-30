@@ -17,11 +17,6 @@ def pause():
         running = False
         
         
-def reset():
-    global running
-    if running:
-        stopwatch_label.after_cancel(update_time)
-        running = False
 
     global hours, minutes, seconds, milliseconds
     global laps
