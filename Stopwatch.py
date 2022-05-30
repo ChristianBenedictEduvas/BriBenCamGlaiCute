@@ -15,7 +15,12 @@ def pause():
     if running:
         stopwatch_label.after_cancel(update_time)
         running = False
-        
+     
+    def reset():
+    global running
+    if running:
+        stopwatch_label.after_cancel(update_time)
+        running = False
         
 
     global hours, minutes, seconds, milliseconds
