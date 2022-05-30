@@ -4,11 +4,7 @@ running = False
 hours, minutes, seconds, milliseconds = 0, 0, 0, 0
 laps = 0
 
-def start():
-    global running
-    if not running:
-        update()
-        running = True
+
 
 def pause():
     global running
@@ -98,7 +94,6 @@ stopwatch_label = tk.Label(text='00:00:00.00', font=('Arial', 86, 'bold'))
 stopwatch_label.pack()
 
 # label to display time
-
 
 # Laps
 split1 = tk.Label(text="00:00:00.00", font=("Arial", 25, 'bold'), height="1")
