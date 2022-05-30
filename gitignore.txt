@@ -1,4 +1,4 @@
-hello world!Pause.py
+Pause.py
 README.md
 Split.py
 Start.py
