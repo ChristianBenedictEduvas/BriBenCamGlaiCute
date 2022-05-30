@@ -4,7 +4,11 @@ running = False
 hours, minutes, seconds, milliseconds = 0, 0, 0, 0
 laps = 0
 
-
+def start():
+    global running
+    if not running:
+        update()
+        running = True
 
 def pause():
     global running
