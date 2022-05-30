@@ -34,7 +34,7 @@ def update():
     global hours, minutes, seconds, milliseconds
     time.sleep(0.0075)
     milliseconds += 1
-    if milliseconds == 100:
+    if milliseconds == 66:
         seconds += 1
         milliseconds = 0
     if seconds == 60:
@@ -63,13 +63,13 @@ stopwatch_label = tk.Label(text='00:00:00:00', font=('Arial', 80, 'bold'))
 stopwatch_label.pack()
 
 
-start_button = tk.Button(text='start', height=5, width=7, font=('Arial', 20, 'bold',), borderwidth='5', command=sStart)
+start_button = tk.Button(text='Start', height=5, width=7, font=('Arial', 20, 'bold',), borderwidth='5', command=Start)
 start_button.pack(side=tk.LEFT)
-pause_button = tk.Button(text='pause', height=5, width=7, font=('Arial', 20, 'bold'), borderwidth='5', command=Pause)
+pause_button = tk.Button(text='Pause', height=5, width=7, font=('Arial', 20, 'bold'), borderwidth='5', command=Pause)
 pause_button.pack(side=tk.LEFT)
-reset_button = tk.Button(text='reset', height=5, width=7, font=('Arial', 20, 'bold'), borderwidth='5', command=Reset)
+reset_button = tk.Button(text='Reset', height=5, width=7, font=('Arial', 20, 'bold'), borderwidth='5', command=Reset)
 reset_button.pack(side=tk.LEFT)
-quit_button = tk.Button(text='quit', height=5, width=7, font=('Arial', 20, 'bold'), borderwidth='5', command=Quit)
+quit_button = tk.Button(text='Quit', height=5, width=7, font=('Arial', 20, 'bold'), borderwidth='5', command=Quit)
 quit_button.pack(side=tk.LEFT)
 
 
