@@ -99,6 +99,7 @@ stopwatch_label.pack()
 
 # label to display time
 
+
 # Laps
 split1 = tk.Label(text="00:00:00.00", font=("Arial", 25, 'bold'), height="1")
 split1.pack()
